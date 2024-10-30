@@ -8,15 +8,27 @@
     },
     {
       "PortName": "EtcdServerPort",
-      "InternalPort": 2379,
+      "InternalPort": 2380,
       "Type": "tcp",
-      "Description": "etcd port"
+      "Description": "etcd server port"
     },
     {
       "PortName": "EtcdClientPort",
       "InternalPort": 2379,
       "Type": "tcp",
-      "Description": "etcd port"
+      "Description": "etcd client port"
+    },
+    {
+      "PortName": "FSMasterHttpPort",
+      "InternalPort": 9333,
+      "Type": "tcp",
+      "Description": "filesystem master http port"
+    },
+    {
+      "PortName": "FSMasterGrpcPort",
+      "InternalPort": 19333,
+      "Type": "tcp",
+      "Description": "filesystem master grpc port"
     }
   ]
 }
